@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928824129249",
+    "project_id": "workturstapp",
+    "storage_bucket": "workturstapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928824129249:android:acee3c3a7b5fd39751a9a0",
+        "android_client_info": {
+          "package_name": "hakancelik.worktrustapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-jKRBEfOmOHF9EKeZU6bAXQ4zUAongYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
