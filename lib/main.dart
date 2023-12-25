@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
 
   final Future<FirebaseApp> _initialization = Firebase.initializeApp();
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -25,12 +24,12 @@ class MyApp extends StatelessWidget {
             return const MaterialApp(
               home: Scaffold(
                 body: Center(
-                  child: Text('iJob clone app is being initialized',
+                  child: Text('WorkTrust Başlatılıyor',
                     style: TextStyle(
                         color: Colors.cyan,
                         fontSize: 38,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'Signatra'
+                        fontFamily: 'Montserrat.regular'
                     ),
                   ),
                 ),
@@ -42,7 +41,7 @@ class MyApp extends StatelessWidget {
             return const MaterialApp(
               home: Scaffold(
                 body: Center(
-                  child: Text('An error has been occurred',
+                  child: Text('Bir hata oluştu',
                     style: TextStyle(
                         color: Colors.cyan,
                         fontSize: 40,
@@ -55,7 +54,7 @@ class MyApp extends StatelessWidget {
           }
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'iJob Clone App',
+            title: 'WorkTrust',
             theme: ThemeData(
               scaffoldBackgroundColor: Colors.black,
               primarySwatch: Colors.blue,
