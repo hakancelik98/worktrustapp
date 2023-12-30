@@ -116,7 +116,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   void _openWhatsAppChat() async
   {
-    var url = 'https://wa.me/$phoneNumber?text=HelloWorld';
+    var url = 'https://wa.me/$phoneNumber?text=Merhaba';
     launchUrlString(url);
   }
 

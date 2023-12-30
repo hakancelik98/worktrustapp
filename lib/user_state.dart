@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 import 'package:worktrustapp/Jobs/jobs_screen.dart';
 import 'package:worktrustapp/LoginPage/login_screen.dart';
 
@@ -14,12 +13,12 @@ class UserState extends StatelessWidget {
       {
         if(userSnapshot.data == null)
         {
-          print('user is not logged in yet');
+          print('kullanıcı henüz oturum açmadı');
           return Login();
         }
         else if(userSnapshot.hasData)
         {
-          print('user is already logged in yet');
+          print('kullanıcı şuan giriş yapmış durumda');
           return JobScreen();
         }
 
@@ -27,7 +26,7 @@ class UserState extends StatelessWidget {
         {
           return const Scaffold(
             body: Center(
-              child: Text('An error has been occurred. Try again later'),
+              child: Text('Bir hata oluştu. Daha sonra tekrar deneyin'),
             ),
           );
         }
@@ -42,7 +41,7 @@ class UserState extends StatelessWidget {
         }
         return const Scaffold(
           body: Center(
-            child: Text('Something went wrong'),
+            child: Text('Bir şeyler yanlış gitti'),
           ),
         );
       },

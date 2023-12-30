@@ -112,7 +112,7 @@ class _JobDetailsScreenState extends State<JobDetailsScreen> {
       scheme: 'mailto',
       path: emailCompany,
       query:
-          'subject=Applying for $jobTitle&body=Hello, please attach Resume CV file',
+          'subject=Başvuru $jobTitle&body=Merhaba, lütfen Özgeçmiş CV dosyasını ekleyin',
     );
     final url = params.toString();
     launchUrlString(url);

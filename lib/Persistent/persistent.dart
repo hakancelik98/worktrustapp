@@ -15,7 +15,6 @@ class Persistent
     'Eğitim',
     'Muhasebe',
     'Mimarlık ve İnşaat',
-
   ];
 
   void getMyData() async

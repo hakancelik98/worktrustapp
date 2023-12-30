@@ -267,9 +267,7 @@ class _UploadJobNowState extends State<UploadJobNow> {
             child: Card(
               color: Colors.transparent,
               child: Container(
-                // Eklenen Container
                 decoration: BoxDecoration(
-                  // Gradient Eklenen Kısım
                   gradient: LinearGradient(
                     colors: [
                       Colors.purple.shade400,

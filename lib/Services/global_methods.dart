@@ -22,7 +22,7 @@ class GlobalMethod
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    'Error Occurred',
+                    'Hata Oluştu',
                   ),
                 ),
               ],
@@ -41,7 +41,7 @@ class GlobalMethod
                   Navigator.canPop(context) ? Navigator.pop(context) : null;
                 },
                 child: const Text(
-                  'OK',
+                  'Tamam',
                   style: TextStyle(color: Colors.red),
                 ),
               ),
