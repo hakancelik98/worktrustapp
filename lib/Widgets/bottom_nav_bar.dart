@@ -1,10 +1,10 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/Jobs/jobs_screen.dart';
-import 'package:worktrustapp/Jobs/upload_job.dart';
-import 'package:worktrustapp/Search/profile_company.dart';
-import 'package:worktrustapp/Search/search_companies.dart';
+import 'package:worktrustapp/Jobs/is_ekrani.dart';
+import 'package:worktrustapp/Jobs/is_yukleme_ekrani.dart';
+import 'package:worktrustapp/Search/sirket_profili.dart';
+import 'package:worktrustapp/Search/sirket_arama.dart';
 import 'package:worktrustapp/user_state.dart';
 
 class BottomNavigationBarForApp extends StatelessWidget {

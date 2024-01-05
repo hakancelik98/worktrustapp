@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/Search/profile_company.dart';
+import 'package:worktrustapp/Search/sirket_profili.dart';
 
 class CommentWidget extends StatefulWidget {
 

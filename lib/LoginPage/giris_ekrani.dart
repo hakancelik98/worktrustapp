@@ -7,9 +7,9 @@ import 'package:flutter/animation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/ForgetPassword/forget_password_screen.dart';
+import 'package:worktrustapp/ForgetPassword/parolami_unuttum.dart';
 import 'package:worktrustapp/Services/global_methods.dart';
-import 'package:worktrustapp/SignupPage/signup_screen.dart';
+import 'package:worktrustapp/SignupPage/kayit_ol.dart';
 
 import '../Services/global_variables.dart';
 

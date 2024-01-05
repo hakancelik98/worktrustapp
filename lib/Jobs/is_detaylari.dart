@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:uuid/uuid.dart';
-import 'package:worktrustapp/Jobs/jobs_screen.dart';
+import 'package:worktrustapp/Jobs/is_ekrani.dart';
 import 'package:worktrustapp/Services/global_methods.dart';
 import 'package:worktrustapp/Services/global_variables.dart';
 import 'package:worktrustapp/Widgets/comments_widget.dart';

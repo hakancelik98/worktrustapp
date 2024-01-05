@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
-import 'package:worktrustapp/Search/profile_company.dart';
+import 'package:worktrustapp/Search/sirket_profili.dart';
 
 class AllWorkersWidget extends StatefulWidget {
 

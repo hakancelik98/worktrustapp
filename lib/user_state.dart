@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/Jobs/jobs_screen.dart';
-import 'package:worktrustapp/LoginPage/login_screen.dart';
+import 'package:worktrustapp/Jobs/is_ekrani.dart';
+import 'package:worktrustapp/LoginPage/giris_ekrani.dart';
 
 class UserState extends StatelessWidget {
 

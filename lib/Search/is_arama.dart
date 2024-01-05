@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/Jobs/jobs_screen.dart';
+import 'package:worktrustapp/Jobs/is_ekrani.dart';
 import 'package:worktrustapp/Widgets/job_widget.dart';
 
 class SearchScreen extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:worktrustapp/Search/search_job.dart';
+import 'package:worktrustapp/Search/is_arama.dart';
 import 'package:worktrustapp/Widgets/bottom_nav_bar.dart';
 import 'package:worktrustapp/Widgets/job_widget.dart';
 
